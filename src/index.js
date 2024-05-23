@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
+import axios from "axios";
 
 import { store } from "./Redux/Store/store";
 import App from './App';
@@ -9,6 +10,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+axios.defaults.baseURL='https://bazaruniversal30backend-production.up.railway.app';
 
 // Crea un root utilizando createRoot
 const root = ReactDOM.createRoot(document.getElementById("root"));
