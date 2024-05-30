@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { productSearchReducer, getProductDetailReducer } from "../Reducer/productReducer";
+import { productSearchReducer, getProductDetailReducer, errorMsg } from "../Reducer/productReducer";
 
 
 

@@ -10,7 +10,8 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-axios.defaults.baseURL='https://bazaruniversal30backend-production.up.railway.app';
+axios.defaults.baseURL='https://bazar-universal3-0-back-end.vercel.app';
+
 
 // Crea un root utilizando createRoot
 const root = ReactDOM.createRoot(document.getElementById("root"));
